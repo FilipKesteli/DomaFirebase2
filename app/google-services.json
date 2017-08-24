@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "326504122987",
+    "firebase_url": "https://domafirebase2-12c52.firebaseio.com",
+    "project_id": "domafirebase2-12c52",
+    "storage_bucket": "domafirebase2-12c52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326504122987:android:3194dd47773bdade",
+        "android_client_info": {
+          "package_name": "com.kesteli.filip.domafirebase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326504122987-a0jeqeudd1gni454cu12q4vlo8bld9co.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kesteli.filip.domafirebase2",
+            "certificate_hash": "f8bc37e66d01e828e631ca9770f0b6d4b425da54"
+          }
+        },
+        {
+          "client_id": "326504122987-lq2n9hllmv95q9san94j2t7sk9kucjor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeJo3SeCWvRCGgh3wEZDJEU6h9F5xMiFI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326504122987-lq2n9hllmv95q9san94j2t7sk9kucjor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
