@@ -95,10 +95,13 @@ public class NoviTimActivity extends AppCompatActivity {
 
         String ime_tima = (etImeTima.getText().toString() + (int) (Math.round(Math.random() * 100.0) / 100.0 * 100));
         editor.putString(POJO.KEY_IME_TIMA, ime_tima);
+        editor.commit();// commit is important here.
 
         try {
             int broj_clanova = Integer.parseInt(etBrojClanova.getText().toString());
             editor.putInt(POJO.KEY_BROJ_CLANOVA, broj_clanova);
+            editor.commit();// commit is important here.
+            Log.d("broj_shared", "" + sharedpreferences.getInt(POJO.KEY_BROJ_CLANOVA, 0));
         } catch(NumberFormatException nfe) {
             Log.d("broj_clanova", etBrojClanova.getText().toString());
         }
@@ -122,7 +125,7 @@ public class NoviTimActivity extends AppCompatActivity {
     }
 
     private void startIntent() {
-        Intent intent = new Intent(NoviTimActivity.this, MainActivity.class);
+        Intent intent = new Intent(NoviTimActivity.this, ClanActivity.class);
         startActivity(intent);
     }
 }
